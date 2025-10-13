@@ -1,0 +1,118 @@
+/* Visual Rules (Codecademy)
+  Font Family: to change font
+  h1 {
+    font-family: Garaond;
+  }
+    Web safe fonts are a group of fonts supported across most browsers and operating systems
+    If not, they may not appear the same between all browsers and operating systems
+    if the typeface (font) consists more than one word use quotes
+
+    To change size of text, sue font-size property
+    p{
+      font-size: 10px;
+    }
+
+    To control how bold or thin text appears, use font-weight
+    p{
+      font-weight: bold;
+    }
+    There is also normal value for a certain section if all is bold (example)
+
+    To alight text, we use the text-align property. The text-align property will align text
+    to the element that holds it, otherwise kown as its parent
+    h1{
+      text-align: right;
+    }
+
+    commonly used values
+    left - aligns text to the left side of its parent element
+    center - centers text inside of its parent element
+    right - aligns text to the right side of its parent element
+    justify - spaces out text in order to align with the right and left side of the parent element
+
+    Foreground color: color that an element appears in
+    Background color: background color
+
+    color: This property styles an element's foreground color
+    background-color: this property styles an element's background color
+    h1{
+      color: red;
+      background-color: blue;
+    }
+
+    Opacity: how transprent an element is, measured from 0 to 1, 1 being 100% or fully
+    visible and opaque, and 0 being 0% or fully invisible
+    p{
+      opacity: 0.5;
+    }
+
+    To change the background of an element, use background-image
+    syntax:
+    p{
+
+      background-image: url(...)
+
+    }
+
+    To provide an image inside an existing project, use relative path
+
+    !important overrides any style no matter how specific it is
+    p{
+      color: blue !important;
+    }
+
+    .main p {
+      color: red;
+    }
+*/
+h1, h2{
+    font-family: Orbitron;
+    font-size: 28px;
+}
+header, footer{
+    background-color: #113;
+}
+a:hover{
+    color: red;
+}
+
+* {
+    font-family: Open Sans;
+    color: white;
+    font-size: 15px;
+}
+
+.SectionOne, .SectionThree{
+    background-color: rgb(19, 4, 51);
+}
+
+.SectionTwo, .SectionFour{
+    background-color: #001f3f
+}
+
+.SectionFour{
+    text-align: center;
+    list-style-position: inside;
+}
+.SectionTwo div {
+    text-align: right;
+}
+
+
+
+h1{
+    color: #00b4ff;
+}
+
+h2, h3, figcaption{
+    color: #f0f;
+    opacity: 0.8;
+}
+
+body{
+    background-color: black;
+}
+
+h3{
+    font-size: 22px;
+}

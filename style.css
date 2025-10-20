@@ -1,49 +1,139 @@
-h1, h2{
+h1, h2, h3{
     font-family: Orbitron;
-    font-size: 28px;
 }
+h1{
+    font-size: 26px;
+    color: #00b4ff;
+    float: left;
+    margin-right: 320px;
+}
+h2{
+    font-size: 24px;
+}
+
+p{
+    max-width: auto;
+    font-size: 18px;
+}
+
+img{
+    height: auto;
+    max-width: 100%;
+    width: 35;
+}
+
+.image {
+    text-align: center;
+}
+
+h3{
+    font-size: 20px;
+}
+
 header, footer{
-    background-color: #113;
+    background-color: rgb(17, 17, 51);
 }
+
 a:hover{
-    color: red;
+    color: rgb(43, 190, 166);
 }
 
 * {
     font-family: Open Sans;
     color: white;
-    font-size: 15px;
+    
 }
 
-.SectionOne, .SectionThree{
-    background-color: rgb(19, 4, 51);
+.SectionOne{
+    background-color: rgb(19,4,51)
 }
 
-.SectionTwo, .SectionFour{
+.SectionTwo, .SectionThree{
     background-color: #001f3f
 }
 
-.SectionFour{
+.SectionThree{
     text-align: center;
     list-style-position: inside;
-}
-.SectionTwo div {
-    text-align: right;
+    margin-top: 0px;
 }
 
-h1{
-    color: #00b4ff;
-}
-
-h2, h3, figcaption{
+h2{
     color: #f0f;
     opacity: 0.8;
+    margin-top: 0px;
 }
 
 body{
     background-color: black;
 }
 
-h3{
-    font-size: 22px;
+.SectionOne img{
+    float:right;
+    margin: 40px;
+}
+
+.SectionOne p{
+    float:left;
+    width: 500px;
+    margin: 0;
+    clear: both;
+}
+
+.SectionOne, .SectionTwo, .SectionThree{
+    overflow:hidden;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+
+.SectionTwo img{
+    
+    float:left;
+    margin:20px;
+    text-align: center;
+}
+
+.SectionTwo p{
+    float:right;
+    width: 500px;
+    margin: 20px;
+    clear: both;
+    text-align: right;
+}
+
+.SectionTwo h2, .SectionTwo h3{
+    float: right;
+    clear:both;
+}
+
+footer li, header li{
+    display: inline;
+    margin: 10px;
+    border:3px solid rgb(63, 32, 202);
+    padding: 7px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+footer p{
+    float:left;
+}
+
+footer, header{
+    overflow: hidden;
+
+}
+
+footer ul, header ul{
+    float: right;
+}
+
+.SectionOne h3{
+    clear:both;
+    overflow: auto;
+    text-align: left;
+}
+
+footer{
+    margin-top: 20px;
 }
